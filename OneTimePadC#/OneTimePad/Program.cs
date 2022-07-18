@@ -38,8 +38,8 @@ namespace OneTimePad
 					if (choice == "1")
 					{
 						//Select correct files - run keytext against plaintext, store result as ciphertext
-						sourcePath = @"/Users/Daniel/NetBeansProjects/OneTimePad/TestPlain.txt";
-						outputPath = @"/Users/Daniel/NetBeansProjects/OneTimePad/TestCipher.txt";
+						sourcePath = @"/";
+						outputPath = @"/";
 
 
 					}
@@ -47,8 +47,8 @@ namespace OneTimePad
 					else
 					{
 						//Select correct files - run keytext against ciphertext, store result as decoded
-						sourcePath = @"/Users/Daniel/NetBeansProjects/OneTimePad/TestCipher.txt";
-						outputPath = @"/Users/Daniel/NetBeansProjects/OneTimePad/TestDecoded.txt";
+						sourcePath = @"/";
+						outputPath = @"/";
 					}
 						
 
